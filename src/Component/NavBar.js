@@ -2,12 +2,15 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <ul className="d-flex">
-      <li>HOME</li>
-      <li>ABOUT</li>
-      <li>CONTACT</li>
-      <li>MORE</li>
-    </ul>
+    <div className="d-flex">
+      <ul className="d-flex">
+        <li> VIEW DEMO</li>
+        <li>FEATURE</li>
+        <li>FAQ</li>
+        <li>DOCUMENTATION</li>
+        <li>FRIENDLY SUPPORT</li>
+      </ul>
+    </div>
   );
 };
 
