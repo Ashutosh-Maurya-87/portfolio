@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import HOME from "./Component/HOME";
+import ViewDemo from "./Component/ViewDemo";
 import NavBar from "./Component/NavBar";
 
 function App() {
   return (
     <>
       <NavBar />
-      <HOME />;
+      <ViewDemo />;
     </>
   );
 }
