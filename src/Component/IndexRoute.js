@@ -5,15 +5,18 @@ import FAQ from "./FAQ/FAQ";
 import Features from "./FEATURES/Features";
 import FriendlySupport from "./FRIENDLY_SUPPORT/FriendlySupport";
 import NavBar from "./NavBar";
+import "./Style/indexroute.scss";
 const Index = () => {
   return (
     <>
-      <NavBar />
-      <ViewDemo />
-      <Features />
-      <FAQ />
-      <Documentation />
-      <FriendlySupport />
+      <div className="index">
+        <NavBar />
+        <ViewDemo />
+        <Features />
+        <FAQ />
+        <Documentation />
+        <FriendlySupport />
+      </div>
     </>
   );
 };
