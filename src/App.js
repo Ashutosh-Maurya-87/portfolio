@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
-import ViewDemo from "./Component/ViewDemo";
-import NavBar from "./Component/NavBar";
+import IndexRoute from "./Component/IndexRoute";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <ViewDemo />;
+      <IndexRoute />
     </>
   );
 }
