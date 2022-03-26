@@ -2,14 +2,22 @@
   margin: 0%;
   padding: 0%;
 }
-
 .Navbar {
   background-color: #535962;
-
-  & .navlist {
-    padding: 30px;
-    font-size: large;
-    font-weight: bold;
-    color: white;
+  @media screen and (max-width: 976px) {
+    & .navlist {
+      padding: 30px;
+      font-size: large;
+      font-weight: bold;
+      color: white;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .Navbar {
+      padding: 30px;
+      font-size: large;
+      font-weight: bold;
+      color: white;
+    }
   }
 }
