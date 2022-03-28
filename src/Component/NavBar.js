@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/NavBar.scss";
-
+// import t from "../Component/Images/Coder";
 const NavBar = () => {
   return (
     <nav
@@ -8,7 +8,7 @@ const NavBar = () => {
       id="link-effect-3"
     >
       <div className="container-fluid">
-        <img src="#" alt="ímage" width="100px" height="100px" />
+        <img src={""} alt="ímage" width="100px" height="100px" />
         <a className="navbar-brand" href="this.com">
           BIO
         </a>
